@@ -15,18 +15,19 @@ const Header = () => {
           thought all exercise blessing indulgence way everything joy alteration
           boisterous the attachement .Party we years to order allowed asked of.
         </p>
+
         <div className="header-content-input">
           <input type="email" placeholder="your email address" />
           <button type="button">Get started</button>
         </div>
+
         <div className="header-content-people">
           <img src={people} alt="people" />
           <p>1,600 people required access visit in the last 24 hoours</p>
         </div>
-
-        <div className="header-image">
-          <img src={AI} alt="ai" />
-        </div>
+      </div>
+      <div className="header-image">
+        <img src={AI} alt="ai" />
       </div>
     </div>
   );
