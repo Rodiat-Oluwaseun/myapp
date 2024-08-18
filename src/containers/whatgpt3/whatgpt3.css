@@ -4,5 +4,9 @@
     padding: 2rem;
     background-color: var(--color-footer);
     background: -moz-linear-gradient(circle);
-    /* background: -mo; */
+    background: -webkit-radial-gradient(circle);
+    background:-o-radial-gradient(circle);
+    background: -ms-radial-gradient(circle);
+    
+
 }

@@ -14,6 +14,11 @@ const Whatgpt3 = () => {
         </h1>
         <p>Explore The Library</p>
       </div>
+      <div className="whatgpt3-container">
+        <Feature />
+        <Feature />
+        <Feature />
+      </div>
     </div>
   );
 };
